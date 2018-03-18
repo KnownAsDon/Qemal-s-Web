@@ -1,0 +1,142 @@
+/*Fonts*/
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,500');
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+
+body{
+ background: linear-gradient(to right, #CAC531, #F3F9A7);
+}
+
+div.menu{
+ font-family: 'Poppins', sans-serif;
+ background-image: url("images/header_background.jpg");
+ background-size: cover;
+ border-radius: 10px;
+}
+
+div.m1{
+ background-color: rgba(204, 209, 209, 0.2);
+}
+
+h3{
+ display: inline;
+ color: #ffffff;
+ font-size: 25px;
+ margin-left: 10px;
+}
+
+ul{
+ margin: 0px;
+ padding: 0px;
+ list-style-type: none;
+ font-family: 'Poppins', sans-serif;
+}
+
+ul li{
+ float: right;
+ width: 200px;
+ height: 40px;
+ background-color: rgba(46, 64, 83, 0.6);
+ line-height: 40px;
+ text-align: center;
+ font-size: 20px;
+ transition-property: display;
+}
+
+li.rc{
+ border-radius: 0px 10px 0px 0px;
+}
+
+ul li a{
+ text-decoration: none;
+ color: #ffffff;
+ display: block;
+ transition-duration: 0.5s;
+ transition-timing-function: linear;
+}
+
+ul li a:hover{
+ background-color: #f4d03f;
+}
+
+ul li ul li{
+ display: none;
+}
+
+ul li:hover ul li{
+ display: block;
+}
+
+div.hm{
+ margin-top: 100px;
+}
+
+h1{
+ color: #ffffff;
+ margin-left: 470px;
+ font-size: 60px;
+ margin-bottom: -50px;
+}
+
+h5{
+ color: #ffffff;
+ font-weight: 200;
+ font-size: 20px;
+ margin-left: 473px;
+ letter-spacing: 13px;
+ padding-bottom: 180px;
+}
+
+div.gallery{
+ background: linear-gradient(to right, #833ab4, #fd1d1d, #fcb045);
+ padding-bottom: 620px;
+ padding-top: 1px;
+ border-radius: 10px;
+}
+
+h2{
+ font-family: 'Lobster', cursive;
+ color: #ffffff;
+ text-align: center;
+ font-size: 50px;
+ background-color: rgba(250, 219, 216, 0.3);
+ padding-top: 10px;
+ padding-bottom: 10px;
+ border: 2px solid rgba(250, 219, 216, 0.3);
+}
+
+img{
+ width: 280px;
+ height: 280px;
+ display: inline;
+ float:left;
+ padding-left: 28px;
+ padding-bottom: 28px;
+ border-radius: 10px;
+ transition: transform.6s;
+}
+
+img:hover{
+ transform:scale(1.15);
+}
+
+ol li{
+ list-style-type: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
